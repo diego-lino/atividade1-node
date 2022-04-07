@@ -5,7 +5,7 @@ const http = require('http');
 const server = http.createServer((req, res) => {
   res.statusCode = 200; // Retorno OK
   res.setHeader('Content-Type', 'text/html'); 
-  res.end('Hello World');
+  res.end('Hello Diego');
 });
 
 // Define parâmetros (hostname e porta) e inicia o servidor
