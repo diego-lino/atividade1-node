@@ -9,7 +9,8 @@ const server = http.createServer((req, res) => {
 });
 
 // Define parâmetros (hostname e porta) e inicia o servidor
+const hostname = '0.0.0.0';
 const port = process.env.PORT || 3000;
 server.listen(port, () => {
-  console.log(` Servidor rodando ${port}`);
+  console.log(` Servidor rodando http://${hostname}:${port}/`);
 });
