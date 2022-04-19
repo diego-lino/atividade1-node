@@ -18,5 +18,10 @@
   "bugs": {
     "url": "https://github.com/diego-lino/atividade1-node/issues"
   },
-  "homepage": "https://github.com/diego-lino/atividade1-node#readme"
+  "homepage": "https://github.com/diego-lino/atividade1-node#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.3",
+    "morgan": "^1.10.0"
+  }
 }
