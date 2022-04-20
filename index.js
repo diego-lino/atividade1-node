@@ -52,7 +52,7 @@ app.post('/produtos', express.json(), (req,res,next) => {
   res.status(201).send("Produto inserido")
 })
 
-app.put('/produtos/:id', (req,res,next) => {
+app.put('/produtos/:id', express.json(), (req,res,next) => {
   let id = parseInt(req.params.id)
   let idx = lista_produtos.produtos.findIndex((elem) => elem.id == id)
   
